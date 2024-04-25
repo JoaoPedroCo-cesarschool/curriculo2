@@ -11,7 +11,7 @@
 
 body{
     color: #ededed;
-    text-align: center
+    
 }
 .header{
     position: fixed;
@@ -58,7 +58,8 @@ body{
 .inicio-content {
     max-width: 700px;
     padding: 15px;
-   text-align: center;   
+   text-align: center;  
+   
 }
 .inicio-content h1{
     font-size: 56px;
@@ -171,18 +172,34 @@ body{
 .inicio-sci a:hover::before {
     width: 100%;
 }
-.inicio-img {
-    position: absolute;
-    top: 100;
-    right: 190px;
-    width: 500px;
-    height: 70%;
-    background: url(IMG-20231215-WA0011.jpg) no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    opacity: 70%;
-}
+
 br{
     background-color: #535C91;
 }
+.direita-content {
+    max-width: 700px;
+    padding: 15px;
+   text-align: center;  
+   
+}
+.direita-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.direita-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #535C91;
+    text-align: center;
+}
+.direita-content p {
+    font-size: 16px;
+    
+   
+    
 
+}
+.container {
+    display: flex;
+}
